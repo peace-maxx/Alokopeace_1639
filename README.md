@@ -42,13 +42,3 @@ Alokopeace_1639/
 3. flutter_application_1
    - Separate starter project kept in `flutter_application_1/`
 
-## Recommended workflow
-
-- Keep the repository root as the main `farm_app` project
-- Keep the other two projects as isolated folders under `Screen_1/` and `flutter_application_1/`
-- Use the `projects/` folder as the canonical index for documentation and future migration
-- Avoid mixing Flutter app files from different projects at the same root level
-
-## Next step
-
-Once the project boundaries are confirmed, we can fully migrate each project into its own isolated folder and keep the root cleaner. The current layout is already organized enough to separate the three apps without losing any source code.
